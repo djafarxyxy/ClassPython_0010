@@ -12,3 +12,6 @@ class Rectangle:
 
     def circumference(self):
         return 2 * (self.length + self.width)
+
+    def area(self):
+        return self.length * self.width
