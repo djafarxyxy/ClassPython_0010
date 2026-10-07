@@ -42,3 +42,5 @@ def main():
             print("Input tidak boleh 0!")
             continue
         break
+
+    persegi = Rectangle(length, width)
