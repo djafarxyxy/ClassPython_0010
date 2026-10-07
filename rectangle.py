@@ -21,4 +21,13 @@ class Rectangle:
 
 
 def main():
-    pass
+    while True:
+        try:
+            length = int(input("Masukkan panjang (cm): "))
+        except ValueError:
+            print("Input harus berupa angka!")
+            continue
+        if length <= 0:
+            print("Input tidak boleh 0!")
+            continue
+        break
