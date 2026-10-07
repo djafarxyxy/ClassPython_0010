@@ -1,4 +1,4 @@
-# ClassRectangle_010
+# ClassPython_010
 
 Tugas Pemrograman Multiplatform - Class dan Object.
 
