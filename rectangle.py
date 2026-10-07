@@ -11,9 +11,11 @@ class Rectangle:
         self.width = width
 
     def circumference(self):
+        # keliling = 2 x (panjang + lebar)
         return 2 * (self.length + self.width)
 
     def area(self):
+        # luas = panjang x lebar
         return self.length * self.width
 
     def __str__(self):
@@ -21,6 +23,7 @@ class Rectangle:
 
 
 def main():
+    # input panjang, gak boleh 0
     while True:
         try:
             length = int(input("Masukkan panjang (cm): "))
@@ -32,6 +35,7 @@ def main():
             continue
         break
 
+    # input lebar, gak boleh 0
     while True:
         try:
             width = int(input("Masukkan lebar (cm): "))
@@ -43,8 +47,10 @@ def main():
             continue
         break
 
+    # bikin objek dari class Rectangle
     persegi = Rectangle(length, width)
 
+    # panggil semua method dari class Rectangle
     print(persegi)
     print("Keliling:", persegi.circumference(), "cm")
     print("Luas:", persegi.area(), "cm^2")
