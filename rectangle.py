@@ -44,3 +44,5 @@ def main():
         break
 
     persegi = Rectangle(length, width)
+
+    print(persegi)
