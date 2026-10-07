@@ -47,3 +47,7 @@ def main():
 
     print(persegi)
     print("Keliling:", persegi.circumference(), "cm")
+    print("Luas:", persegi.area(), "cm^2")
+
+
+main()
