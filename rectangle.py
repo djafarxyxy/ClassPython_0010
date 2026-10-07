@@ -3,4 +3,5 @@
 
 
 class Rectangle:
-    pass
+    length = 0
+    width = 0
