@@ -31,3 +31,14 @@ def main():
             print("Input tidak boleh 0!")
             continue
         break
+
+    while True:
+        try:
+            width = int(input("Masukkan lebar (cm): "))
+        except ValueError:
+            print("Input harus berupa angka!")
+            continue
+        if width <= 0:
+            print("Input tidak boleh 0!")
+            continue
+        break
