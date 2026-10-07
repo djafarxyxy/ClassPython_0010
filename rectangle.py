@@ -46,3 +46,4 @@ def main():
     persegi = Rectangle(length, width)
 
     print(persegi)
+    print("Keliling:", persegi.circumference(), "cm")
